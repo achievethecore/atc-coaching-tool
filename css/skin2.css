@@ -1,0 +1,57 @@
+.mce-panel {
+    background: white;
+}
+.mce-btn {
+    background: white;
+    border-radius: 0;
+    color: #b0ada2;
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    margin-bottom: -1px;
+    margin-top: -1px;
+}
+.mce-btn button {
+    color: inherit;
+}
+.mce-ico {
+    color: inherit;
+    text-shadow: none !important;
+}
+.mce-flow-layout-item {
+    margin: 0;
+}
+.mce-btn {
+    border-radius: 0 !important;
+    border-right: 1px solid #b0ada2 !important;
+}
+.mce-toolbar-grp {
+    padding-bottom: 0;
+}
+ 
+
+.mce-btn.mce-active, .mce-btn:not(.mce-disabled):active {
+    background: #b0ada2;
+    color: white;
+    box-shadow: none;
+}
+.mce-btn:hover, .mce-btn.mce-active:hover {
+    background: #f5f5f0;
+    color: #b0ada2;
+    box-shadow: none;
+}
+.mce-btn {
+    border-top: 0 !important;
+    border-bottom: 0 !important;
+    border-color: #b0ada2 !important;
+}
+.mce-btn-group.mce-first .mce-btn.mce-first {
+    border-left: 0 !important;
+}
+.mce-btn-group.mce-last .mce-btn {
+    border-left: 0 !important;
+}
+.mce-btn button {
+    padding-top: 9px;
+    padding-left: 12px;
+}
